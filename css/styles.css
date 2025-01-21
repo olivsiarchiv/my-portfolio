@@ -1,9 +1,9 @@
-html {
+html, body {
+    font-family: 'Poppins', sans-serif;
     height: 100%;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -32,4 +32,5 @@ footer {
     padding: 1rem 0;
     background: #90596d;
     color: white;
+    margin-top: auto;
 }

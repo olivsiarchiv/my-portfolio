@@ -20,8 +20,9 @@ main {
 
 footer {
     text-align: center;
+    font-style: italic;
+    text-decoration: none;
     padding: 1rem 0;
     background: #90596d;
     color: white;
-    margin-top: auto;
 }

@@ -19,6 +19,7 @@ main {
 }
 
 footer {
+    text-align: center;
     font-style: italic;
     text-decoration: none;
     padding: 1rem 0;

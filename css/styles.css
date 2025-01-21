@@ -15,12 +15,12 @@ header {
 nav ul {
     display: inline;
     margin-right: 1rem;
+    padding: 1rem;
 }
 
 nav ul li a {
     text-decoration: none;
     color: darkmagenta;
-    padding: 1rem;
 }
 
 main {

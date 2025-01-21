@@ -6,30 +6,21 @@ body {
 }
 
 header {
-    background: pink;
-    color: hotpink;
+    background: #90596d;
+    color: white;
     padding: 1rem 0;
     text-align: center;
-}
-
-nav ul {
-    display: inline;
-    margin-right: 1rem;
-    padding: 1rem;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: darkmagenta;
+    font-weight: bolder;
 }
 
 main {
     padding: 1rem;
+    color: #c78ca0;
 }
 
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: pink;
-    color: hotpink;
+    background: #90596d;
+    color: white;
 }

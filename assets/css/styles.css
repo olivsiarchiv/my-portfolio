@@ -44,3 +44,7 @@ body {
 .footer a {
     color: #c78ca0;
 }
+
+.footer a:hover {
+    color: white;
+}

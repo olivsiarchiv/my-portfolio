@@ -13,6 +13,12 @@ function loadContent(section) {
     if(activeLink) {
         activeLink.classList.add('active');
     }
+
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+    if(navbarCollapse.classList.contains('show')) {
+        navbarToggler.click();
+    }
 }
 
 window.onload = () => loadContent('home');

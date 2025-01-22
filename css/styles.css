@@ -1,36 +1,22 @@
-html, body {
-    font-family: 'Poppins', sans-serif;
-    height: 100%;
-}
-
 body {
-    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
     overflow-x: hidden;
 }
 
-header {
+.header, .footer {
     background: #90596d;
     color: white;
-    padding: 1rem 0;
-    text-align: center;
-    font-weight: bolder;
 }
 
-main {
-    padding: 1rem;
+.about-me {
+    background: rgba(199, 140, 160, 0.7);
+    border-radius: 15px;
+    border: 5px solid #90596d;
+    color: #90596d;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.footer a {
     color: #c78ca0;
-}
-
-footer {
-    text-align: center;
-    font-style: italic;
-    text-decoration: none;
-    padding: 1rem 0;
-    background: #90596d;
-    color: white;
-    margin-top: auto;
 }

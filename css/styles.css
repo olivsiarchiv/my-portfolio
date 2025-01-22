@@ -12,9 +12,13 @@ body {
     filter: invert(1);
 }
 
-.navbar .nav-link.active {
+.navbar-nav .nav-link.active {
     color: #c78ca0;
     font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #c78ca0;
 }
 
 .text-align-justify {
@@ -29,7 +33,7 @@ body {
     line-height: 1.1;
 }
 
-.about-me {
+.home-content, .about-content, .projects-content, .contact-content {
     background: rgba(199, 140, 160, 0.7);
     border-radius: 15px;
     border: 5px solid;

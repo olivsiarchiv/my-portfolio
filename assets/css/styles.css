@@ -23,14 +23,14 @@ body {
 
 .text-align-justify {
     text-align: justify;
-    background: #beacac;
-    color: #A94A4A;
     font-size: large;
     font-weight: bold;
     word-spacing: 0.1px;
     padding: 20px;
-    border: 10px solid;
     line-height: 1.1;
+    /* background: #beacac; */
+    /* color: #A94A4A; */
+    /* border: 10px solid; */
 }
 
 .home-content, .about-content, .projects-content, .contact-content {

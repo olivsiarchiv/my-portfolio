@@ -33,12 +33,31 @@ body {
     /* border: 10px solid; */
 }
 
+@keyframes borderAnimation {
+    0% {
+        border-color: #90596d;
+    }
+    25% {
+        border-color: #ffa68e;
+    }
+    50% {
+        border-color: #aa82ae;
+    }
+    75% {
+        border-color: #007895;
+    }
+    100% {
+        border-color: #564148;
+    }
+}
+
 .home-content, .about-content, .projects-content, .contact-content {
     background: rgba(199, 140, 160, 0.7);
     border-radius: 15px;
-    border: 5px solid;
+    border: 8px solid;
     color: #90596d;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    animation: borderAnimation 10s infinite;
 }
 
 .footer a {
